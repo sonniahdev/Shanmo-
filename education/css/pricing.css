@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #9A3B3B;
+}
+
+/* Header styles */
+.fh5co-nav {
+  background: #E2C799;
+}
+
+#fh5co-hero {
+  background: #C08261;
+}
+
+#fh5co-hero h1, #fh5co-hero h2 {
+  color: #F2ECBE;
+}
+
+/* About section styles */
+#fh5co-about {
+  background: #E2C799;
+  color: #9A3B3B;
+}
+
+/* Counter section styles */
+#fh5co-counter {
+  background: #C08261;
+  color: #F2ECBE;
+}
+
+/* Course categories section styles */
+#fh5co-course-categories {
+  background: #E2C799;
+}
+
+#fh5co-course-categories h2, #fh5co-course-categories p {
+  color: #9A3B3B;
+}
+
+/* Register section styles */
+#fh5co-register {
+  background: #C08261;
+  color: #F2ECBE;
+}
+
+/* Footer styles */
+#fh5co-footer {
+  background: #E2C799;
+  color: #9A3B3B;
+}
+
+#fh5co-footer h3 {
+  color: #9A3B3B;
+}
+
+#fh5co-footer a {
+  color: #9A3B3B;
+}
+
+/* Button styles */
+.btn, .btn-primary, .btn-reg {
+  background: #C08261;
+  color: #F2ECBE;
+}
+
+.btn:hover, .btn-primary:hover, .btn-reg:hover {
+  background: #9A3B3B;
+  color: #F2ECBE;
+}
+
+/* Social icons styles */
+.fh5co-social a {
+  color: #9A3B3B;
+}
+
+.fh5co-social a:hover {
+  color: #C08261;
+}
+
+.flexslider{
+color:9A3B3B;
+}

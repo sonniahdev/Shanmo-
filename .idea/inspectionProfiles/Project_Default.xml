@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="part1.matplotlib" />
+          <option value="part1.y" />
+          <option value="part1.x" />
+          <option value="numpy" />
+          <option value="partB.x" />
+          <option value="partB.y" />
+          <option value="partXi.model" />
+          <option value="fouthq2.predicted" />
+          <option value="fouthq2.predicted_values" />
+          <option value="fouthq2.csv_path" />
+          <option value="Chtbot.node_colors" />
+          <option value="docx.Document" />
+          <option value="docx.*" />
+          <option value="long_respon" />
+          <option value="long_responses" />
+          <option value="long_res" />
+          <option value="os" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
