@@ -2,6 +2,22 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/__MACOSX/education/._index.html" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/education/Font-Awesome-4.7" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/Gallery.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/css/bootstrap.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/css/card-gallery.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/css/compact-gallery.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/css/grid-gallery.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/css/hero-slider-style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/css/horizontal.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/css/templatemo-style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/gallery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/hero-slider-main.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/img" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/index-color.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/index-gray.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/js/jquery-1.11.3.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/education/js/tether.min.js" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>

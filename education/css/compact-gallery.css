@@ -34,18 +34,17 @@ p{
   display: inline-block;
   padding: 10px 25px;
   color: black;
-  background-color: #ddd;
+  background-color: #F2ECBE;
   text-align: center;
   cursor: pointer;
 }
 
 .hero-text button:hover {
-  background-color: #555;
+  background-color: #F2ECBE;
   color: white;
 }
  #mailto a:hover{
   text-decoration: none;
-  color: yellow;
 
 }
 
@@ -55,7 +54,7 @@ p{
 body{
 background-repeat: no-repeat;
 background-size: cover;
-background-color: #ddd;
+background-color: #F2ECBE;
 padding-bottom: 10px;
 
 }
@@ -69,7 +68,7 @@ padding-bottom: 10px;
   font-family: 'Raleway', sans-serif;
 }
 h2{
-  color: rgb(37, 28, 28);
+  color: #F2ECBE;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 
@@ -112,7 +111,7 @@ h2{
     position: absolute;
     bottom: 0;
     left: 0;
-    color: #fff;
+    color:#F2ECBE;
     padding: 10px;
     font-size: 17px;
     line-height: 18px;
@@ -120,7 +119,7 @@ h2{
     padding-top: 15px;
     padding-bottom: 15px;
     opacity: 1;
-    color: #fff;
+    color:#F2ECBE;
     transition: 0.8s ease;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -158,7 +157,7 @@ h2{
   border: none;
   height: 10px;
   background: linear-gradient(-135deg, #fff 5px, transparent 0) 0 5px, linear-gradient(135deg, #fff 5px, #060b58f3 0) 0 5px;
-  background-color: #fff;
+  background-color:#F2ECBE;
   background-position: left bottom;
   background-repeat: repeat-x;
   background-size: 10px 10px;
@@ -268,7 +267,8 @@ background: #ddd;
 }
 
 .gallery-block.cards-gallery a {
-  color: #212529; 
+  color: #F2ECBE
+;
 }
 
 .gallery-block.cards-gallery a:hover {
@@ -316,7 +316,7 @@ background: #ddd;
 
 .grid-item-1 {
 	display:inline-block;
-	background:#ddd;
+	background:#F2ECBE;
 	margin:0 0 10px;
 	padding:10px;
 	padding-bottom:5px;
@@ -341,7 +341,6 @@ background: #ddd;
 
 #p1{
   font-size: 15px !important;
-  color: green !important;
 }
 
 @media (min-width: 450px) {

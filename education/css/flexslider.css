@@ -44,8 +44,8 @@
 .flexslider {
   margin: 0;
   padding: 0;
-  background: #9A3B3B;
-  border: 4px solid #9A3B3B;
+  background:#F2ECBE;
+  border: 4px solid #F2ECBE;
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;
@@ -55,13 +55,13 @@
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  color: #9A3B3B;
+  color:#F2ECBE;
 }
 
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
-  color: #9A3B3B;
+  color:#F2ECBE;
 }
 
 .flexslider .slides img {

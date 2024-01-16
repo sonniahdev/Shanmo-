@@ -2071,3 +2071,101 @@ h1, h2, h3, h4, h5, h6, figure {
     border-bottom: solid 1px #444;
   }
 }
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F2ECBE url('path/to/your-background-image.jpg') repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #9A3B3B;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #C08261;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #9A3B3B;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #9A3B3B;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.desc {
+    text-align: center;
+}
+
+.icon-container {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.icon {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

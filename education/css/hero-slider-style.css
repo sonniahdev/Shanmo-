@@ -14,12 +14,15 @@ html { font-size: 62.5%; }
 body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
-  color: #2c343b;
-  background-color: #f2f2f2;
+  color:#C08261
+;
+  background-color:#F2ECBE
+;
 }
 
 a {
-  color: #d44457;
+  color:#C08261
+;
   text-decoration: none;
 }
 
@@ -37,7 +40,8 @@ Main Components
   left: 0;
   width: 100%;
   height: 50px;
-  background-color: #21272c;
+  background-color: #9A3B3B
+;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -92,9 +96,10 @@ Main Components
   height: 50px;
   line-height: 50px;
   padding-left: 5%;
-  background: #21272c;
+  background: #9A3B3B;
   border-top: 1px solid #333c44;
-  color: #ffffff;
+  color: #9A3B3B
+;
 }
 @media only screen and (min-width: 768px) {
   .cd-primary-nav {
@@ -202,23 +207,29 @@ Single slide style
   background-repeat: no-repeat;
 }
 .cd-hero-slider li:first-of-type {
-  background-color: #2c343b;  
+  background-color:#9A3B3B
+;
 }
 .cd-hero-slider li:nth-of-type(2) {
-  background-color: #3d4952;  
+  background-color: #9A3B3B
+;
 }
 .cd-hero-slider li:nth-of-type(3) {
-  background-color: #cdcdcd;  
+  background-color: #9A3B3B
+;
 }
 .cd-hero-slider li:nth-of-type(4) {
-  background-color: #2c343b;
+  background-color:#9A3B3B
+;
   
 }
 .cd-hero-slider li:nth-of-type(5) {
-  background-color: #2c343b;  
+  background-color: #9A3B3B
+;
 }
 .cd-hero-slider li:nth-of-type(6) {
-  background-color: #2c343b;  
+  background-color: #9A3B3B
+;
 }
 .cd-hero-slider .cd-full-width,
 .cd-hero-slider .cd-half-width {
@@ -283,7 +294,8 @@ Single slide style
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   line-height: 1.2;
   margin: 0 auto 14px;
-  color: #ffffff;
+  color:#9A3B3B
+;
   width: 90%;
   max-width: 400px;
 }
@@ -302,7 +314,8 @@ Single slide style
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #9A3B3B
+;
   text-transform: uppercase;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   -webkit-transition: background-color 0.2s;
@@ -316,10 +329,12 @@ Single slide style
   margin-left: 1em;
 }
 .no-touch .cd-hero-slider .cd-btn:hover {
-  background-color: #d44457;
+  background-color: #9A3B3B
+;
 }
 .no-touch .cd-hero-slider .cd-btn.secondary:hover {
-  background-color: #161a1e;
+  background-color:#9A3B3B
+;
 }
 @media only screen and (min-width: 768px) {
   .cd-hero-slider .cd-full-width,
@@ -444,7 +459,8 @@ Slider navigation
   float: left;
 }
 .cd-slider-nav li.selected a {
-  color: #2c343b;
+  color: #9A3B3B
+;
 }
 
 .cd-slider-nav a {
@@ -453,7 +469,8 @@ Slider navigation
   padding-top: 35px;
   font-size: 1rem;
   font-weight: 700;
-  color: #a8b4be;
+  color:#9A3B3B
+;
 }
 .cd-slider-nav a::before {
   content: '';
