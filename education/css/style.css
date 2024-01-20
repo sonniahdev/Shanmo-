@@ -492,7 +492,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-hero .flexslider {
   border: none;
-  z-index: 1;
   margin-bottom: 0;
 }
 #fh5co-hero .flexslider .slides {
@@ -515,7 +514,6 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   content: '';
   background: rgba(0, 0, 0, 0.4);
-  z-index: 1;
 }
 #fh5co-hero .flexslider .flex-control-nav {
   bottom: 40px;
@@ -2169,3 +2167,30 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
+
+<style>
+    /* Custom styles for navigation dots */
+    .flex-control-nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .flex-control-nav li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .flex-control-nav li a {
+        background-color: #333; /* Set the color of the dots */
+        width: 10px;
+        height: 10px;
+        display: block;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .flex-control-nav li a.flex-active {
+        background-color: #fff; /* Set the color of the active dot */
+    }
+</style>

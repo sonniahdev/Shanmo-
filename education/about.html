@@ -108,19 +108,19 @@
             </div>
         </div>
     </div>
-		<div class="top-menu">
+		<div class="top-menu"style="height:1.45cm;">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
                     <div id="fh5co-logo">
 						<a href="index.html">
-                             <img src="images/shanmo.jpg" alt="SHANMO" style="max-width: 40%; height: 40%;">
+                             <img src="images/shanmo.jpg" alt="SHANMO" style="max-width: 40%; height: 40%;margin-left: -120px; margin-top:-10px">
 						</a>
                     </div>
 					</div>
-<div class="col-xs-10 text-right menu-1" style="margin-top: 15px;"> <!-- Add margin-top for downward movement -->
+<div class="col-xs-10 text-right menu-1" > <!-- Add margin-top for downward movement -->
     <ul>
-        <li><a href="index.html" style="color: #F2ECBE;">Home</a></li>
+        <li ><a href="index.html" style="color: #F2ECBE;">Home</a></li>
         <li class="active"><a href="about.html" style="color: #F2ECBE;">About</a></li>
         <li class="nav-item"><a href="Gallery.html" style="color: #F2ECBE;">Gallery</a></li>
 		        <li class="nav-item"><a href="blog.html"style="color: #F2ECBE;">Blog</a></li>
@@ -217,8 +217,8 @@
     <div class="container">
         <div class="row animate-box">
             <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                <h2>About Shanmo Abacus Mental Health</h2>
-                <p>Embark on a journey to discover the profound essence of Shanmo Abacus Mental Health and our unwavering commitment to fostering mental well-being and achieving a harmonious balance in life.</p>
+                <h2>About Shenmo Abacus Mental Health</h2>
+                <p>Embark on a journey to discover the profound essence of Shenmo Abacus Mental Health and our unwavering commitment to fostering mental well-being and achieving a harmonious balance in life.</p>
             </div>
         </div>
         <div class="row">
@@ -240,7 +240,7 @@
                     </span>
                     <div class="desc">
                         <h3><a href="#">Our Team</a></h3>
-                        <p>Meet the heart and soul of Shanmo Abacus Mental Health – our dedicated team. Explore their diverse expertise and unwavering passion for fostering mental well-being and making a positive impact on lives.</p>
+                        <p>Meet the heart and soul of Shenmo Abacus Mental Health – our dedicated team. Explore their diverse expertise and unwavering passion for fostering mental well-being and making a positive impact on lives.</p>
                     </div>
                 </div>
             </div>
@@ -335,16 +335,14 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
 
-	<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        // Get the elements
-        var dropdownToggle = document.getElementById("dropdown-toggle");
-        var dropdownMenu = document.getElementById("dropdown-menu");
-
-        // Add a click event listener to the image
-        dropdownToggle.addEventListener("click", function () {
-            // Toggle the display of the dropdown menu
-            dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+<script>
+    $(document).ready(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            controlNav: true, // Set to true to show navigation dots
+            directionNav: false, // Set to false to hide navigation arrows
+            slideshowSpeed: 5000, // Set the speed of the slideshow
+            animationSpeed: 600, // Set the speed of slide animation
         });
     });
 </script>

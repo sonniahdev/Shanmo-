@@ -724,3 +724,48 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
+/* Magnific Popup styles for lightbox */
+.mfp-container {
+    padding: 0;
+    background: none;
+}
+
+.mfp-content {
+    max-width: none;
+}
+
+.mfp-inline-holder .mfp-title {
+    margin-top: 0;
+}
+
+.mfp-close-btn-in .mfp-close {
+    color: #fff;
+}
+
+.mfp-image-holder .mfp-close {
+    top: -20px;
+    right: -20px;
+}
+
+/* Custom styles for gallery block */
+.gallery-block {
+    text-align: center;
+}
+
+.gallery-block img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-block .item {
+    margin-bottom: 20px;
+}
+
+.gallery-block a.lightbox img {
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-block a.lightbox:hover img {
+    transform: scale(1.1);
+}
